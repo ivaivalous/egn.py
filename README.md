@@ -7,6 +7,7 @@ Usage:
     
     >>> # Valid EGN
     >>> egn = egn.Egn("2501014540")
+    
     >>> Print info encoded in the EGN
     >>> print(egn)
     Year: 1925
@@ -14,6 +15,7 @@ Usage:
     Day: 01
     Gender: Male
     Region: Plovdiv
+    
     >>> # Get individual fields
     >>> egn.year
     '1925'
@@ -25,7 +27,7 @@ Usage:
     'Male'
     >>> egn.region
     'Plovdiv'
-    >>>
+    
     >>> # Invalid EGN
     >>> egn = egn.Egn("2502155456")
     >>> Traceback (most recent call last):
