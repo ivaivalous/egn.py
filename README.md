@@ -8,7 +8,7 @@ Usage:
     >>> # Valid EGN
     >>> egn = egn.Egn("2501014540")
     
-    >>> Print info encoded in the EGN
+    >>> # Print info encoded in the EGN
     >>> print(egn)
     Year: 1925
     Month: 1
